@@ -1,0 +1,41 @@
+body {
+  background-color: aliceblue;
+}
+
+.our-game {
+  display: flex;
+  justify-items: left;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  border-bottom-style: solid;
+  border-color: #b3dbff;
+  border-width: 1px;
+}
+
+.header {
+  padding-top: 2vh;
+  padding-left: 7vh;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.game-text {
+  flex-direction: column;
+  padding-left: 2vh;
+}
+
+.game-pic img {
+  width: 200px;
+  height: auto;
+  padding-left: 5vh;
+}
+
+.game-title {
+  color: red;
+  font-weight: bold;
+}
+
+.game-button {
+  padding-top: 5vh;
+  padding-left: 5vh;
+}
